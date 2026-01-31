@@ -1,0 +1,69 @@
+/* General */
+body { 
+  scroll-behavior: smooth; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Perfil */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Timeline */
+.timeline {
+  border-left: 3px solid #0d6efd;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+/* Proyectos */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Botones */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Habilidades */
+.progress-bar {
+  transition: width 1s ease;
+}
+
+/* Footer icons */
+footer a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd;
+  transform: scale(1.2);
+}
